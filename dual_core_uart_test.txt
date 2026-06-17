@@ -1,0 +1,64 @@
+Configuration	dual_core_uart_test
+STM32CubeMX 	6.15.0
+Date	06/16/2026
+MCU	STM32H755ZITx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN (PH0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT (PH1)
+SYS_M4	SysTick	SYS_M4_VS_Systick	VP_SYS_M4_VS_Systick
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART3	Asynchronous	USART3_RX	PD9
+USART3	Asynchronous	USART3_TX	PD8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+25	PH0-OSC_IN (PH0)	RCC_OSC_IN	
+26	PH1-OSC_OUT (PH1)	RCC_OSC_OUT	
+76	PD8	USART3_TX	
+77	PD9	USART3_RX	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN (PH0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT (PH1)
+SYS_M4	SysTick	SYS_M4_VS_Systick	VP_SYS_M4_VS_Systick
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART3	Asynchronous	USART3_RX	PD9
+USART3	Asynchronous	USART3_TX	PD8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+25	PH0-OSC_IN (PH0)	RCC_OSC_IN	
+26	PH1-OSC_OUT (PH1)	RCC_OSC_OUT	
+76	PD8	USART3_TX	
+77	PD9	USART3_RX	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : dual_core_uart_test
+Project Folder : C:\Users\kavya\Downloads\Gui_Endo_Mail_Sent\Gui_Endo_Mail_Sent\stm32_single_core_firmware\dual_core_uart_test
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_H7 V1.12.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
